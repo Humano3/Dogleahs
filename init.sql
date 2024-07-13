@@ -1,63 +1,21 @@
-Create table admin(
-    id int,
-    administrador text,
-    password text
+CREATE TABLE admin (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    administrador TEXT NOT NULL,
+    password TEXT NOT NULL
 );
 
-Create table cliente(
-    id int,
-    name varchar(10),
-    apellidos varchar(10),
-    email text,
-    password text
+CREATE TABLE cliente (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name TEXT NOT NULL,
+    apellidos TEXT NOT NULL,
+    email TEXT NOT NULL,
+    password TEXT NOT NULL
 );
 
-Create table numero(
-    id int,
-    Mascota varchar(15),Create table numero(
-    id int,
-    Mascota varchar(15),
-    Tipo varchar(10),
-    Raza varchar(10),
-    Numero varchar(10)
-);Create table cliente(
-    id int,
-    name varchar(10),
-    apellidos varchar(10),
-    email text,
-    password text,
-);Create table admin(
-    id int,
-    administrador text,
-    password text,
-);Create table admin(
-    id int,
-    administrador text,
-    password text,
-);
-
-Create table cliente(
-    id int,
-    name varchar(10),
-    apellidos varchar(10),
-    email text,
-    password text,
-);
-
-Create table numero(
-    id int,
-    Mascota varchar(15),
-    Tipo varchar(10),
-    Raza varchar(10),
-    Numero varchar(10)
-);Create table numero(
-    id int,
-    Mascota varchar(15),
-    Tipo varchar(10),
-    Raza varchar(10),
-    Numero varchar(10)
-);
-    Tipo varchar(10),
-    Raza varchar(10),
-    Numero varchar(10)
+CREATE TABLE numero (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Mascota TEXT NOT NULL,
+    Tipo TEXT NOT NULL,
+    Raza TEXT NOT NULL,
+    Numero TEXT NOT NULL
 );

@@ -1,0 +1,1 @@
+INSERT INTO cliente (id, name,apellidos, email, password) VALUES (1, 'Oscar','Julio', 'osjulio@gmail.com', 'oscar28');
