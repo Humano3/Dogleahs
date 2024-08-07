@@ -13,7 +13,7 @@ Este comando permite reiniciar el apache
 
 apache2ctl restart
 
-Script de tablas a utilizar
+Dentro de SQLTOOLS ejecuta los script de tablas que se utilizaran
 
 CREATE TABLE admin (
     id INT AUTO_INCREMENT PRIMARY KEY,
